@@ -1,4 +1,4 @@
-# Programa de resultado de alistamento militar
+#Programa de resultado de alistamento militar
 import datetime
 
 ano = int(input("Digite seu ano de nascimento: "))
