@@ -1,4 +1,4 @@
-# Programa para a comparação de números inteiros
+#Programa para a comparação de números inteiros
 
 numero_a = int(input("Digite o primeiro número: "))
 numero_b = int(input("Digite o segundo número: "))
