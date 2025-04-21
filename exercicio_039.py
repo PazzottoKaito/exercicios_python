@@ -7,7 +7,7 @@ idade = hoje - ano
 
 print("-" * 150)
 
-if ano < (hoje - 100):
+if ano < (hoje - 100) or ano >= hoje:
     print("Digite um ano válido.")
 elif idade < 18:
     print(f"Com {idade} anos, faltam ainda {18 - idade} ano(s) para o "
