@@ -3,6 +3,7 @@
 numero = int(input("Digite um número: "))
 
 print("-" * 100)
+
 print(f"A tabuada de multiplicação de 1 a 10 do número {numero}:"
       f"\n{numero} X 01 = {numero * 1}."
       f"\n{numero} X 02 = {numero * 2}."
