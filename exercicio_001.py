@@ -1,3 +1,3 @@
 #Programa de saudação simples
 
-print("Olá, mundo!!")
+print(f"Olá, mundo!!")
