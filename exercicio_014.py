@@ -5,5 +5,6 @@ fahrenheit = (celsius * 9/5) + 32
 kelvin = celsius + 273.15
 
 print("-" * 100)
-print(f"{celsius:.2f}° Celsius equivalem a {kelvin:.2f} Kelvins e "
+
+print(f"{celsius:.2f}° Celsius equivalem a {kelvin:.2f} Kelvin e "
       f"{fahrenheit:.2f}° Fahrenheit.")
