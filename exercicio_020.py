@@ -9,5 +9,6 @@ lista = [aluno_a, aluno_b, aluno_c, aluno_d]
 random.shuffle(lista)
 
 print("-" * 100)
+
 print(f"A ordem de apresentação será a seguinte: "
-      f"\n{lista}.")
+      f"\n{', '.join(lista)}.")
