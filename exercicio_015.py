@@ -6,4 +6,5 @@ quilometros = int(input("Digite quantos quilômetros foram "
 valor = (dias * 60) + (quilometros * 0.15)
 
 print("-" * 100)
+
 print(f"O valor total a ser pago é de R${valor:.2f}.")
