@@ -3,6 +3,7 @@
 nome_completo = str(input("Digite seu nome completo: ")).strip()
 
 print("-" * 150)
+
 print(f"O seu nome apenas com letras minúsculas: "
       f"{nome_completo.lower()}."
       f"\nO seu nome apenas com letras maiúsculas: "
