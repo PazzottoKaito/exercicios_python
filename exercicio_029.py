@@ -2,14 +2,16 @@
 
 velocidade = int(input("Digite a velocidade do veículo, em km/h: "))
 
-print("-" * 150)
+print("-" * 100)
 
 if velocidade > 0:
     if velocidade <= 80:
-        print("Fique atento ao limite de velocidade e boa viagem!!")
+        print("Velocidade dentro do limite. Boa viagem e dirija com "
+              "segurança!!")
     else:
         multa = (velocidade - 80) * 7
-        print(f"O veículo foi multado em R${multa:.2f}, pois estava "
-              f"{velocidade - 80}km/h acima do permitido.")
+        print(f"O veículo foi multado em R${multa:.2f}."
+              f"\nEstava a {velocidade} km/h, ou seja, {velocidade - 80} "
+              f"km/h acima do limite permitido.")
 else:
     print("Digite uma velocidade válida.")
