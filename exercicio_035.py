@@ -6,7 +6,8 @@ lado_c = int(input("Digite a terceira medida: "))
 
 print("-" * 100)
 
-if (lado_a + lado_b > lado_c and lado_c + lado_a > lado_b and
+if (lado_a + lado_b > lado_c and
+        lado_c + lado_a > lado_b and
         lado_b + lado_c > lado_a):
     print(f"Com essas medidas, é possível montar um triângulo.")
 else:
