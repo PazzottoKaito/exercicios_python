@@ -1,7 +1,7 @@
 #Programa para a comparação de números inteiros
 
-numero_a = int(input("Digite o primeiro número: "))
-numero_b = int(input("Digite o segundo número: "))
+numero_a = int(input("Digite o primeiro número inteiro: "))
+numero_b = int(input("Digite o segundo número inteiro: "))
 
 print("-" * 100)
 
