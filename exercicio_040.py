@@ -1,4 +1,4 @@
-#Programa para aprovação de alunos em escolas
+#Programa para aprovação de alunos
 
 nota_a = float(input("Digite a nota do primeiro bimestre: "))
 nota_b = float(input("Digite a nota do segundo bimestre: "))
@@ -10,11 +10,11 @@ print("-" * 100)
 
 if (nota_a < 0 or nota_a > 10 or nota_b < 0 or nota_b > 10 or
         nota_c < 0 or nota_c > 10 or nota_d < 0 or nota_d > 10):
-    print("Digite apenas notas válidas, com números entre 0 e 10.")
+    print("Digite apenas notas válidas, entre os números 0 e 10.")
 else:
     if media < 5:
-        print(f"Com média {media:.2f}, o aluno está reprovado.")
+        print(f"Com média {media:.2f}, o estudante está reprovado.")
     elif media < 7:
-        print(f"Com média {media:.2f}, o aluno está de recuperação.")
+        print(f"Com média {media:.2f}, o estudante está de recuperação.")
     else:
-        print(f"Com média {media:.2f}, o aluno está aprovado.")
+        print(f"Com média {media:.2f}, o estudante está aprovado.")
