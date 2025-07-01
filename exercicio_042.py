@@ -1,4 +1,4 @@
-#Programa para verificar e classificar um triângulo
+#Programa para montar e classificar um triângulo
 
 lado_a = int(input("Digite a primeira medida: "))
 lado_b = int(input("Digite a segunda medida: "))
@@ -15,8 +15,6 @@ if (lado_a + lado_b > lado_c and lado_c + lado_a > lado_b and
         tipo = "escaleno"
     else:
         tipo = "isósceles"
-
     print(f"Com essas medidas, é possível montar um triângulo {tipo}.")
-
 else:
     print(f"Com essas medidas, não é possível montar um triângulo.")
