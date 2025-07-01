@@ -1,15 +1,18 @@
-#Programa para pagamento de compras no mercado
+#Programa para pagamento de compras
 
 valor = float(input("Digite o valor total da compra: R$"))
 
 print("-" * 150)
+
 print("Digite [1] para pagar com cheque ou dinheiro."
       "\nDigite [2] para pagar à vista no cartão."
       "\nDigite [3] para pagar em duas vezes no cartão."
       "\nDigite [4] para pagar em três vezes ou mais no cartão.")
+
 print("-" * 150)
 
 opcao = int(input("Digite uma opção: "))
+
 print("-" * 150)
 
 if opcao > 4 or opcao < 1:
@@ -28,7 +31,6 @@ else:
     else:
         parcela = int(input("Digite o número desejado de parcelas: "))
         print("-" * 150)
-
         print(f"Você parcelou a compra em {parcela} vezes de R$"
               f"{(valor * 1.20) / parcela:.2f} (com juros de 20%)."
               f"\nO total da compra é de R${(valor * 1.20):.2f}.")
