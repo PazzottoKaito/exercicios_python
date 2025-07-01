@@ -1,4 +1,4 @@
-#Programa para categorizar faixa etária de atletas
+#Programa para categorizar atletas de acordo a idade
 import datetime
 
 ano = int(input("Digite seu ano de nascimento: "))
@@ -21,6 +21,5 @@ else:
         categoria = "sênior"
     else:
         categoria = "master"
-
     print(f"Com {idade} ano(s) de idade, sua classificação é: "
           f"{categoria.capitalize()}.")
