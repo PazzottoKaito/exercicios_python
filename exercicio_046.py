@@ -7,6 +7,8 @@ for numeros in range(10, 0, -1):
     time.sleep(1)
 
 print("")
+
 print("-" * 100)
-print(f"Um feliz Ano Novo de {datetime.datetime.today().year + 1} "
-      f"para você e a sua família!!")
+
+print(f"Um feliz Ano-Novo de {datetime.datetime.today().year + 1} "
+      f"para você e sua família!!")
