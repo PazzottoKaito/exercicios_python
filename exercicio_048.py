@@ -8,5 +8,5 @@ for numeros in range(1, 500, 2):
         multiplos += 1
         soma += numeros
 
-print(f"A soma dos {multiplos} primeiros números ímpares múltiplos "
-      f"de três resulta em {soma}.")
+print(f"A soma dos {multiplos} números ímpares múltiplos de três "
+      f"entre 1 e 500 resulta em {soma}.")
