@@ -1,4 +1,4 @@
-#Programa para somar apenas os número pares entre os seis digitados
+#Programa para somar apenas os números pares entre os seis digitados
 
 pares = []
 soma = 0
@@ -10,4 +10,6 @@ for contador in range(1, 7):
         soma += numero
 
 print("-" * 100)
-print(f"A soma entre os números {sorted(pares)} resulta em {soma}.")
+
+print(f"A soma entre os números pares {sorted(pares)} resulta "
+      f"em {soma}.")
