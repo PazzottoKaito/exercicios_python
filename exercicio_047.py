@@ -13,7 +13,7 @@ else:
     for numeros in range(inicio, fim + 1):
         if numeros % 2 == 0:
             if numeros == fim or numeros == fim - 1:
-                print(f"{numeros}, e fim!!")
+                print(f"{numeros}.")
             else:
                 print(f"{numeros}, ", end="")
                 contador += 1
